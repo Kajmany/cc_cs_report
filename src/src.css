@@ -13,4 +13,7 @@
         max-width: 75ch;
         @apply font-serif text-xl mb-1.5
     }
+    li {
+        max-width: 75ch;
+    }
 }
