@@ -1,0 +1,22 @@
+[Unit]
+Description=Caddy Webserver
+
+[Container]
+Image=docker.io/caddy
+Exec=caddy run --config /srv/www/Caddyfile
+Network=venal.network
+PublishPort=80:80
+PublishPort=443:443
+PublishPort=127.0.0.1:2019:2019
+# Persistent volume for internal data
+Volume=caddy.volume:/data
+# Bind mount for served stuff.
+Mount=type=bind,source=/srv/www,destination=/srv/www
+[Service]
+# What could go wrong?
+Restart=always
+TimeoutStartSec=900
+
+[Install]
+# Start by default on boot
+WantedBy=multi-user.target default.target
