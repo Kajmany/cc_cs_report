@@ -4,6 +4,13 @@
 
 @layer components {
     .section-title {
-        @apply text-xl font-semibold
+        @apply text-2xl font-semibold inline text-white
+    }
+}
+
+@layer base {
+    p {
+        max-width: 75ch;
+        @apply font-serif text-xl mb-1.5
     }
 }
