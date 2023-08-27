@@ -2,13 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-    .section-title {
-        @apply text-2xl font-semibold inline text-white
-    }
-}
-
 @layer base {
+    * {
+        @apply dark:text-gray-300
+    }
     p {
         max-width: 75ch;
         @apply font-serif text-xl mb-1.5
