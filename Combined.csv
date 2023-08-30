@@ -1,0 +1,16 @@
+Name,Address,Website,Campus setting,Campus housing,Student population,Undergraduate students,Graduation Rate,Transfer-Out Rate,Net Price **,Head Count (Fall ‘21),CS/Engineering Enrollment (Fall 21’),Percentage
+Blue Mountain Community College,"Pendleton, Oregon 97801",https://www.bluecc.edu/,Rural: Fringe,No,1227,1227,22%,12%,"$11,403","1,593",67,4.21%
+Central Oregon Community College,"Bend, Oregon 97703",www.cocc.edu/,City: Small,Yes,4155,4155,22%,21%,"$7,819","6,123",256,4.18%
+Chemeketa Community College,"Salem, Oregon 97305",www.chemeketa.edu/,Suburb: Midsize,No,7642,7642,19%,16%,"$8,000","10,126",530,5.23%
+Clackamas Community College,"Oregon City, Oregon 97045-8980",www.clackamas.edu/,Suburb: Large,No,4638,4638,20%,27%,"$4,351","11,726",388,3.31%
+Lane Community College,"Eugene, Oregon 97405-0640",https://www.lanecc.edu/,Rural: Fringe,Yes,6745,6745,24%,19%,"$8,800","7,803",469,6.01%
+Linn-Benton Community College,"Albany, Oregon 97321",https://www.linnbenton.edu/,City: Small,No,4242,4242,22%,9%,"$11,564","6,332",487,7.69%
+Mt Hood Community College,"Gresham, Oregon 97030",www.mhcc.edu/,Suburb: Large,No,6012,6012,22%,13%,"$7,269","9,151",193,2.11%
+Portland Community College,"Portland, Oregon 97219-7132",www.pcc.edu/,City: Large,No,19400,19400,18%,21%,"$10,166","26,773","1,603",5.99%
+Rogue Community College,"Grants Pass, Oregon 97527-9291",www.roguecc.edu/,Rural: Fringe,No,3423,3423,14%,18%,"$8,806","3,937",34,0.86%
+Southwestern Oregon Community College,"Coos Bay, Oregon 97420-2193",www.socc.edu/,Town: Remote,Yes,1443,1443,34%,19%,"$8,758","2,162",116,5.37%
+Tillamook Bay Community College,"Tillamook, Oregon 97141",tillamookbaycc.edu/,Rural: Fringe,No,538,538,33%,13%,"$4,760","1,042",16,1.54%
+Umpqua Community College,"Roseburg, Oregon 97470-0226",https://www.umpqua.edu/,Rural: Fringe,Yes,2325,2325,25%,13%,"$8,982","3,882",164,4.23%
+,* Cohort Year represents the year for which students began their studies and applies to Graduation and Transfer Out Rates.,,,,,,,,,,,
+,"** Net Price is Average Net Price for 2021-2022 generated for full-time beginning undergraduate students who were awarded grant or scholarship aid from federal, state or local governments, or the institution. For public institutions only students paying the in-state or in-district rate are included.  For institutions that charge students by program, net price is generated for the institution’s largest program.",,,,,,,,,,,
+,"NA (Not applicable) - Graduation rate, transfer-out rate and the net price are not applicable to institutions that do not have full-time, first-time degree-seeking undergraduate students in the applicable cohort year or the financial aid year.",,,,,,,,,,,
