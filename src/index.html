@@ -13,9 +13,6 @@
         <h1 class="text-center text-3xl">CS In Oregon: Community College Alternatives for LBCC Students</h1>
         <h4 class="text-center text-lg font-light italic overline">A Report for Those Looking to Save by
             Transferring</h4>
-        <h4 class="text-center text-lg font-light italic">In this developmental version, bullet-points represent
-            future paragraphs in the outline. Lorem-ipsum is present to visualize website with more content (sans
-        forthcoming pictures and aside-boxes)</h4>
     </hgroup>
 
     <div class="border-2 border-black m-3">
@@ -30,11 +27,15 @@
         </nav>
     </div>
 
-    <section id="introduction">
-        <div class="mt-6 mb-1 sticky top-0 bg-lb-blue">
+    <section class="w-5/6 flex flex-col items-center" id="introduction">
+        <div class="mt-6 mb-1 sticky top-0 bg-lb-blue w-full">
             <h3 class="text-2xl font-semibold inline text-white dark:text-gray-300">Introduction</h3>
             <a class="hover:underline text-white dark:text-gray-300" href="#top">↥</a>
         </div>
+
+        <img class="m-2 rounded-md ring-2 ring-lb-blue" src="/assets/1600x600-lbcc-main-albany@2x.jpg" alt="Front of LBCC main Albany building.">
+        <p class="italic text-sm">LBCC's main administrative building. (Photo from linnbenton.edu)</p>
+
         <ul class="m-5">
             <li class="list-disc">LBCC-specific background. Budget deficit, cuts (ideally quite short)</li>
             <li class="list-disc">Immediate implication for would-be students: find another CC or go straight to Uni.
@@ -51,8 +52,8 @@
             tincidunt. Nam nec. </p>
     </section>
 
-    <section id="methods">
-        <div class="mt-6 mb-1 sticky top-0 bg-lb-blue">
+    <section class="w-5/6 flex flex-col items-center"  id="methods">
+        <div class="mt-6 mb-1 sticky top-0 bg-lb-blue w-full">
             <h3 class="text-2xl font-semibold inline text-white dark:text-gray-300">Methods</h3>
             <a class="hover:underline text-white dark:text-gray-300" href="#top">↥</a>
         </div>
@@ -92,8 +93,8 @@
             ante auctor, id faucibus erat fermentum. </p>
     </section>
 
-    <section id="results">
-        <div class="mt-6 mb-1 sticky top-0 bg-lb-blue">
+    <section class="w-5/6 flex flex-col items-center"  id="results">
+        <div class="mt-6 mb-1 sticky top-0 bg-lb-blue w-full">
             <h3 class="text-2xl font-semibold inline text-white dark:text-gray-300">Results</h3>
             <a class="hover:underline text-white dark:text-gray-300" href="#top">↥</a>
         </div>
@@ -105,6 +106,238 @@
             probably justified and relevant? I could site that study I read about the same problem. Maybe this is better
             put somewhere else? A 'discussion' section would be kind of silly, I think?</li>
         </ul>
+
+        <table class="table-auto border  border-separate dark:border-gray-300 m-3 border-black">
+            <caption class="caption-bottom italic">NCES College Navigator Data. CSV -> Markdown conversion done by <a href="https://claude.ai/">Claude.ai</a>,
+            then manually verified and truncated.</caption>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Campus setting</th>
+                <th>Campus housing</th>
+                <th>Graduation Rate</th>
+                <th>Transfer-Out Rate</th>
+                <th>Net Price</th>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.bluecc.edu/">Blue Mountain</a></td>
+                <td>Pendleton, 97801</td>
+                <td>Rural: Fringe</td>
+                <td>No</td>
+                <td>22%</td>
+                <td>12%</td>
+                <td>$11,403</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.cocc.edu/">Central Oregon</a></td>
+                <td>Bend, 97703</td>
+                <td>City: Small</td>
+                <td>Yes</td>
+                <td>22%</td>
+                <td>21%</td>
+                <td>$7,819</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.chemeketa.edu/">Chemeketa</a></td>
+                <td>Salem, 97305</td>
+                <td>Suburb: Midsize</td>
+                <td>No</td>
+                <td>19%</td>
+                <td>16%</td>
+                <td>$8,000</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.clackamas.edu/">Clackamas</a></td>
+                <td>Oregon City, 97045</td>
+                <td>Suburb: Large</td>
+                <td>No</td>
+                <td>20%</td>
+                <td>27%</td>
+                <td>$4,351</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.lanecc.edu/">Lane</a></td>
+                <td>Eugene, 97405</td>
+                <td>Rural: Fringe</td>
+                <td>Yes</td>
+                <td>24%</td>
+                <td>19%</td>
+                <td>$8,800</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.linnbenton.edu/">Linn-Benton</a></td>
+                <td>Albany, 97321</td>
+                <td>City: Small</td>
+                <td>No</td>
+                <td>22%</td>
+                <td>9%</td>
+                <td>$11,564</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.mhcc.edu/">Mt Hood</a></td>
+                <td>Gresham, 97030</td>
+                <td>Suburb: Large</td>
+                <td>No</td>
+                <td>22%</td>
+                <td>13%</td>
+                <td>$7,269</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.pcc.edu/">Portland</a></td>
+                <td>Portland, 97219</td>
+                <td>City: Large</td>
+                <td>No</td>
+                <td>18%</td>
+                <td>21%</td>
+                <td>$10,166</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.roguecc.edu/">Rogue</a></td>
+                <td>Grants Pass, 97527</td>
+                <td>Rural: Fringe</td>
+                <td>No</td>
+                <td>14%</td>
+                <td>18%</td>
+                <td>$8,806</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.socc.edu/">Southwestern Oregon</a></td>
+                <td>Coos Bay, 97420</td>
+                <td>Town: Remote</td>
+                <td>Yes</td>
+                <td>34%</td>
+                <td>19%</td>
+                <td>$8,758</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.tillamookbaycc.edu/">Tillamook Bay</a></td>
+                <td>Tillamook, 97141</td>
+                <td>Rural: Fringe</td>
+                <td>No</td>
+                <td>33%</td>
+                <td>13%</td>
+                <td>$4,760</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.umpqua.edu/">Umpqua</a></td>
+                <td>Roseburg, 97470</td>
+                <td>Rural: Fringe</td>
+                <td>Yes</td>
+                <td>25%</td>
+                <td>13%</td>
+                <td>$8,982</td>
+            </tr>
+
+        </table>
+
+        <table class="table-auto border border-separate dark:border-gray-300 m-3 border-black">
+            <caption class="caption-bottom italic">Oregon HECC Data for Fall '21 Term. CSV -> Markdown conversion done by <a href="https://claude.ai/">Claude.ai</a>,
+                then manually verified and truncated, with addition of percentage calculation.</caption>
+            <tr>
+            <tr>
+                <th>Name</th>
+                <th>Student Count</th>
+                <th>Enrolled in CS/Engineering Classes</th>
+                <th>Percentage</th>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.bluecc.edu/">Blue Mountain</a></td>
+                <td>1,593</td>
+                <td>67</td>
+                <td>4.21%</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.cocc.edu/">Central Oregon</a></td>
+                <td>6,123</td>
+                <td>256</td>
+                <td>4.18%</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.chemeketa.edu/">Chemeketa</a></td>
+                <td>10,126</td>
+                <td>530</td>
+                <td>5.23%</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.clackamas.edu/">Clackamas</a></td>
+                <td>11,726</td>
+                <td>388</td>
+                <td>3.31%</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.lanecc.edu/">Lane</a></td>
+                <td>7,803</td>
+                <td>469</td>
+                <td>6.01%</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.linnbenton.edu/">Linn-Benton</a></td>
+                <td>6,332</td>
+                <td>487</td>
+                <td>7.69%</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.mhcc.edu/">Mt Hood</a></td>
+                <td>9,151</td>
+                <td>193</td>
+                <td>2.11%</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.pcc.edu/">Portland</a></td>
+                <td>26,773</td>
+                <td>1,603</td>
+                <td>5.99%</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.roguecc.edu/">Rogue</a></td>
+                <td>3,937</td>
+                <td>34</td>
+                <td>0.86%</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.socc.edu/">Southwestern Oregon</a></td>
+                <td>2,162</td>
+                <td>116</td>
+                <td>5.37%</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.tillamookbaycc.edu/">Tillamook Bay</a></td>
+                <td>1,042</td>
+                <td>16</td>
+                <td>1.54%</td>
+            </tr>
+
+            <tr>
+                <td><a href="https://www.umpqua.edu/">Umpqua</a></td>
+                <td>3,882</td>
+                <td>164</td>
+                <td>4.23%</td>
+            </tr>
+        </table>
+
         <p>Praesent efficitur placerat quam, non cursus sem luctus in. Suspendisse pharetra mattis dui. Aliquam ultrices
             a eros vitae dictum. Aenean ut massa vitae ipsum dapibus volutpat. Proin egestas pretium mattis. Donec eu
             sem eu sem malesuada iaculis ac vel risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
@@ -128,8 +361,8 @@
             blandit metus varius ac. Nulla at lectus massa.</p>
     </section>
 
-    <section id="conclusions">
-        <div class="mt-6 mb-1 sticky top-0 bg-lb-blue">
+    <section class="w-5/6 flex flex-col items-center"  id="conclusions">
+        <div class="mt-6 mb-1 sticky top-0 bg-lb-blue w-full">
             <h3 class="text-2xl font-semibold inline text-white dark:text-gray-300">Conclusions</h3>
             <a class="hover:underline text-white dark:text-gray-300" href="#top">↥</a>
         </div>
@@ -166,8 +399,8 @@
             ante auctor, id faucibus erat fermentum. </p>
     </section>
 
-    <section id="recommendations">
-        <div class="mt-6 mb-1 sticky top-0 bg-lb-blue">
+    <section class="w-5/6 flex flex-col items-center"  id="recommendations">
+        <div class="mt-6 mb-1 sticky top-0 bg-lb-blue w-full">
             <h3 class="text-2xl font-semibold inline text-white dark:text-gray-300">Recommendations</h3>
             <a class="hover:underline text-white dark:text-gray-300" href="#top">↥</a>
         </div>
@@ -210,8 +443,8 @@
             ante auctor, id faucibus erat fermentum. </p>
     </section>
 
-    <section id="works-cited">
-        <div class="mt-6 mb-1 sticky top-0 bg-lb-blue">
+    <section class="w-5/6 flex flex-col items-center"  id="works-cited">
+        <div class="mt-6 mb-1 sticky top-0 bg-lb-blue w-full">
             <h3 class="text-2xl font-semibold inline text-white dark:text-gray-300">Works Cited</h3>
             <a class="hover:underline text-white dark:text-gray-300" href="#top">↥</a>
         </div>

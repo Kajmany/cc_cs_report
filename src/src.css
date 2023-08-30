@@ -13,4 +13,7 @@
     li {
         max-width: 75ch;
     }
+    table {
+        border-spacing: 1rem;
+    }
 }
